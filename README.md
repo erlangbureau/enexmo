@@ -22,7 +22,7 @@ For newer endpoints that support JWT authentication such as the Voice API,
 you can also specify the `application_id` and `private_key` arguments:
 
 ```erl
-2> enexmo:create_channel(test, [{api_key, "1ed8091a"}, {api_secret, "b0dzz6aa0104ab17"}, {application_id, "application_id"}, {private_key, "private_key"}]).
+2> enexmo:create_channel(test, [{api_key, "api_key"}, {api_secret, "api_secret"}, {application_id, "application_id"}, {private_key, "private_key"}]).
 ok
 ```
 
